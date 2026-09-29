@@ -8,9 +8,13 @@ Open **https://cybercathacker.github.io/cat/**. The game opens directly in the b
 
 The optional [`CAT-Cilent.user.js`](CAT-Cilent.user.js) is for players who prefer the official website with Tampermonkey. Do not double-click that file in Windows Explorer; it is a browser userscript.
 
+## Customise the CAT panel
+
+Open **CAT settings** from the button at the top-left of the game, or choose **Settings** on the panel itself. Drag the panel by its header. Settings let you pick a screen corner, set its width and opacity, and choose a forest, graphite, or blue theme. Your choices are saved in that browser.
+
 ## GitHub Pages
 
-The [live game](https://cybercathacker.github.io/cat/) is published from the `main` branch of [`cybercathacker/cat`](https://github.com/cybercathacker/cat). The embedded game snapshot needs updating when Territorial.io changes its client or server protocol.
+The live game is published from the `main` branch of [`cybercathacker/cat`](https://github.com/cybercathacker/cat). The embedded game snapshot needs updating when Territorial.io changes its client or server protocol.
 
 ## Licence and third-party material
 
