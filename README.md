@@ -4,13 +4,15 @@ A browser userscript add-on for Territorial.io, made for [CAT]. It provides live
 
 ## Install
 
-1. Install Tampermonkey in your browser.
-2. Download [`CAT-Cilent.user.js`](CAT-Cilent.user.js) and open it to install.
+1. Install Tampermonkey in your browser. In Chrome, enable **Allow User Scripts** for the extension if prompted.
+2. Open the [live installer page](https://cybercathacker.github.io/cat/) and click **Install with Tampermonkey**. Confirm the installation in Tampermonkey.
 3. Visit [Territorial.io](https://territorial.io/) and start a match.
+
+If the `.user.js` link downloads a file instead, use Tampermonkey **Dashboard → Utilities → URL** to import `https://cybercathacker.github.io/cat/CAT-Cilent.user.js`. Do not double-click the file in Windows Explorer. That opens Windows Script Host, which reports a JScript syntax error because this is a browser userscript.
 
 ## GitHub Pages
 
-This project is in [`cybercathacker/cat`](https://github.com/cybercathacker/cat). To publish its landing page, open **Settings → Pages**, choose **Deploy from a branch**, then select `main` and `/(root)`. GitHub Pages only serves the installer and instructions. The game and match servers continue to be provided by the official game. The official server may reject a match connection from a GitHub Pages origin; the userscript installed on `https://territorial.io/` is the fallback.
+The [live page](https://cybercathacker.github.io/cat/) serves the installer and instructions from the `main` branch of [`cybercathacker/cat`](https://github.com/cybercathacker/cat). The add-on runs on the official game page; GitHub Pages does not host matches.
 
 ## Licence and third-party material
 

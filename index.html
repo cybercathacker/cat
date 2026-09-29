@@ -11,7 +11,8 @@
     main{width:min(680px,100%);border:1px solid #54736a;background:#18231f;padding:clamp(22px,5vw,42px);box-sizing:border-box}
     h1{font-size:clamp(30px,7vw,48px);line-height:1.1;margin:0 0 12px;color:#d8eadb}
     p{max-width:60ch;color:#c1d0c5}
-    a.button{display:inline-block;margin:12px 0 18px;padding:11px 16px;background:#35634f;color:white;border:1px solid #8aad94;text-decoration:none;font-weight:bold}
+    a.button{display:inline-block;margin:12px 14px 10px 0;padding:11px 16px;background:#35634f;color:white;border:1px solid #8aad94;text-decoration:none;font-weight:bold}
+    a.save{display:inline-block;margin-bottom:18px;color:#c4dfcb}
     code{overflow-wrap:anywhere;color:#e8d58a}
     .note{border-left:3px solid #b0a06a;padding:8px 12px;background:#222a23}
     footer{margin-top:28px;border-top:1px solid #40534a;padding-top:14px;font-size:14px;color:#aab9ad}
@@ -21,13 +22,15 @@
   <main>
     <h1>[CAT] Cilent</h1>
     <p>A small, read-only match data and quality-of-life add-on for Territorial.io, made for [CAT]. It adds live match statistics and optional manual opening presets. It does not send attacks or automate gameplay.</p>
-    <a class="button" href="CAT-Cilent.user.js">Download userscript</a>
+    <a class="button" href="CAT-Cilent.user.js">Install with Tampermonkey</a>
+    <a class="save" href="CAT-Cilent.user.js" download="CAT-Cilent.user.js">Save the .user.js file</a>
     <h2>Install</h2>
     <ol>
-      <li>Install Tampermonkey in your browser.</li>
-      <li>Open the downloaded <code>CAT-Cilent.user.js</code> file and choose to install it.</li>
+      <li>Install Tampermonkey in your browser. In Chrome, enable <strong>Allow User Scripts</strong> for the extension if prompted.</li>
+      <li>Click <strong>Install with Tampermonkey</strong> above and confirm the install in Tampermonkey.</li>
       <li>Visit <a href="https://territorial.io/">territorial.io</a> and start a match.</li>
     </ol>
+    <p class="note"><strong>Downloaded the file instead?</strong> Do not double-click it in Windows Explorer: Windows Script Host will show a syntax error. In Tampermonkey’s Dashboard → Utilities → URL, import <code>https://cybercathacker.github.io/cat/CAT-Cilent.user.js</code>.</p>
     <p class="note">This add-on reads the game client in your browser. It is not an official Territorial.io product and is not affiliated with the game’s owner. Compatibility can change when the game updates.</p>
     <footer>Original [CAT] Cilent add-on code is licensed under MIT. Territorial.io code, trademarks, artwork, and other third-party material are not included in that license. See <a href="THIRD-PARTY-NOTICES.md">third-party notices</a>.</footer>
   </main>
