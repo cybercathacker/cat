@@ -1,19 +1,17 @@
 # [CAT] Cilent
 
-A browser userscript add-on for Territorial.io, made for [CAT]. It provides live match statistics and manual quality-of-life controls. It does not automatically attack or play the match for you.
+A playable browser client for Territorial.io, made for [CAT]. It provides live match statistics and manual quality-of-life controls. It does not automatically attack or play the match for you.
 
-## Install
+## Play
 
-1. Install Tampermonkey in your browser. In Chrome, enable **Allow User Scripts** for the extension if prompted.
-2. Open the [live installer page](https://cybercathacker.github.io/cat/) and click **Install with Tampermonkey**. Confirm the installation in Tampermonkey.
-3. Visit [Territorial.io](https://territorial.io/) and start a match.
+Open **https://cybercathacker.github.io/cat/**. The game opens directly in the browser. Multiplayer matches use Territorial.io's game servers; GitHub Pages only hosts the client.
 
-If the `.user.js` link downloads a file instead, use Tampermonkey **Dashboard → Utilities → URL** to import `https://cybercathacker.github.io/cat/CAT-Cilent.user.js`. Do not double-click the file in Windows Explorer. That opens Windows Script Host, which reports a JScript syntax error because this is a browser userscript.
+The optional [`CAT-Cilent.user.js`](CAT-Cilent.user.js) is for players who prefer the official website with Tampermonkey. Do not double-click that file in Windows Explorer; it is a browser userscript.
 
 ## GitHub Pages
 
-The [live page](https://cybercathacker.github.io/cat/) serves the installer and instructions from the `main` branch of [`cybercathacker/cat`](https://github.com/cybercathacker/cat). The add-on runs on the official game page; GitHub Pages does not host matches.
+The [live game](https://cybercathacker.github.io/cat/) is published from the `main` branch of [`cybercathacker/cat`](https://github.com/cybercathacker/cat). The embedded game snapshot needs updating when Territorial.io changes its client or server protocol.
 
 ## Licence and third-party material
 
-This repository uses the MIT licence already selected for it. It applies to original [CAT] Cilent code and documentation created for this project. It does not grant rights to Territorial.io or third-party code, trademarks, artwork, or other assets. See [`THIRD-PARTY-NOTICES.md`](THIRD-PARTY-NOTICES.md).
+The MIT licence applies to original [CAT] Cilent code and documentation only. The playable page contains a modified Territorial.io game client; its code and assets are excluded from the MIT grant. See [`THIRD-PARTY-NOTICES.md`](THIRD-PARTY-NOTICES.md).
